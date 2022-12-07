@@ -22,9 +22,16 @@ A figura abaixo ilustra o passo a passo do que é realizado:
 Para conhecer e navegar pelo projeto é recomendado acessar este [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/deborahmoreira/data_science_ind_40/blob/main/DataScience_PCP.ipynb)
 
 Nele, a entrada é importada da nuvem, cada passo está organizado em seções, é possível visualisar textos explicativos e executar blocos de código individualmente. 
->Para executar todas as células de uma só vez use o comando `ctrl+F9`
+1. Para executar todas as células de uma só vez use o comando `ctrl+F9`
 
->Para acessar os arquivos de saída, clique no menu à esquerda na aba "arquivos"
+2. Para acessar os arquivos de saída, clique no menu à esquerda na aba "arquivos"
 
 ### Localmente
-
+1. Primeiramente, certifique-se de ter o [Python](https://www.python.org/downloads/) instalado em sua máquina.
+2. Instale as bibliotecas [Numpy](https://numpy.org/install/) e [Pandas](https://pandas.pydata.org/docs/getting_started/install.html).
+3. Use `git clone <link-deste-projeto>` em seu terminal clonar o projeto.
+4. Abra o arquivo `datascience_pcp.py` usando sua IDE preferida.
+5. Altere o caminho das pastas que contém as entradas para sua máquina. Faça isso alterando as variáveis `file_0`, `file_1` e `file_2`.
+6. Altere o caminho das pastas que receberam a saída para sua máquina. Faça isso alterando os três últimos comandos do código.
+7. No terminal, use `pyhton datascience_pcp.py` e execute.
+8. Para conferir a saída, use o arquivo disponibilizado na pasta `saida esperada`.
