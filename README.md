@@ -12,7 +12,7 @@ Em meio a uma enorme quantidade de dados gerados e consumidos no decorrer do pro
 
 O arquivo de entrada, contendo os dados de entrada, é lido e várias transformações são realizadas com objetivo de determinar quais produtos podem ou não ter sua OP gerada. Aqueles que não podem por possuir pêndencias relacionadas às variáveis citadas acima, devem ter essas especificadas, para que sejam posteriormente solucionadas. 
 
-A figura abaixo ilustrar o passo a passo do que é realizado:
+A figura abaixo ilustra o passo a passo do que é realizado:
 
 <center><img width="800" src="images/fluxo-de-dados.png"></center>
 
