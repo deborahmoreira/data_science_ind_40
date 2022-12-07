@@ -18,12 +18,13 @@ A figura abaixo ilustrar o passo a passo do que é realizado:
 
 ## Como executar
 
-### Colab
-Para conhecer e navegar pelo projeto é recomendado acessar este [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/datastructure/blob/main/lessons/week_01/Python_Tutorial.ipynb)
+### Web
+Para conhecer e navegar pelo projeto é recomendado acessar este [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/deborahmoreira/data_science_ind_40/blob/main/DataScience_PCP.ipynb)
 
-Nele, cada passo está organizado em seções, é possível visualisar textos explicativos e executar blocos de código individualmente. 
+Nele, a entrada é importada da nuvem, cada passo está organizado em seções, é possível visualisar textos explicativos e executar blocos de código individualmente. 
 >Para executar todas as células de uma só vez use o comando `ctrl+F9`
 
 >Para acessar os arquivos de saída, clique no menu à esquerda na aba "arquivos"
 
+### Localmente
 
