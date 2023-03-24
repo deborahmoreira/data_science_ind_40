@@ -33,5 +33,5 @@ Nele, não há necessidade importar manualmente os arquivos de entrada. Cada pas
 4. Abra o arquivo `datascience_pcp.py` usando sua IDE preferida.
 5. Altere o caminho das pastas que contém as entradas para sua máquina. Faça isso alterando as variáveis `file_0`, `file_1` e `file_2`.
 6. Altere o caminho das pastas que receberam a saída para sua máquina. Faça isso alterando os três últimos comandos do código.
-7. No terminal, use `pyhton datascience_pcp.py` e execute.
+7. No terminal, use `python datascience_pcp.py` e execute.
 8. Para conferir a saída, use o arquivo disponibilizado na pasta `saida esperada`.
