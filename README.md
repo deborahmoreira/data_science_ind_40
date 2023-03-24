@@ -21,7 +21,7 @@ A figura abaixo ilustra o passo a passo do que é realizado:
 ### Web
 Para conhecer e navegar pelo projeto é recomendado acessar este [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/deborahmoreira/data_science_ind_40/blob/main/DataScience_PCP.ipynb)
 
-Nele, a entrada é importada da nuvem e não há necessidade importar manualmente os arquivos de entrada. Cada passo está organizado em seções, é possível visualisar textos explicativos e executar blocos de código individualmente. 
+Nele, não há necessidade importar manualmente os arquivos de entrada. Cada passo está organizado em seções, é possível visualisar textos explicativos e executar blocos de código individualmente. 
 1. Para executar todas as células de uma só vez use o comando `ctrl+F9`
 
 2. Para acessar os arquivos de saída, clique no menu à esquerda na aba "arquivos"
