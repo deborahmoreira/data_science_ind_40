@@ -27,7 +27,7 @@ A figura abaixo ilustra um **DAG** com os passos realizados:
     <img width="600" title="Arquitetura" src="images/fluxo-de-dados.png"/>
 </div>
 
-## Como executar
+## 👷‍♀️ Como executar
 ### ☁️ Web
 Para conhecer e navegar pelo projeto é recomendado acessar este [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/deborahmoreira/data_science_ind_40/blob/main/DataScience_PCP.ipynb)
 
