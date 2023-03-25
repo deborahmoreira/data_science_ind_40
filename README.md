@@ -18,7 +18,7 @@ A figura abaixo ilustra o passo a passo do que é realizado:
 
 ## Como executar
 
-### Web
+### ☁️ Web
 Para conhecer e navegar pelo projeto é recomendado acessar este [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/deborahmoreira/data_science_ind_40/blob/main/DataScience_PCP.ipynb)
 
 Nele, não há necessidade importar manualmente os arquivos de entrada. Cada passo está organizado em seções, é possível visualisar textos explicativos e executar blocos de código individualmente. 
@@ -26,7 +26,7 @@ Nele, não há necessidade importar manualmente os arquivos de entrada. Cada pas
 
 2. Para acessar os arquivos de saída, clique no menu à esquerda na aba "arquivos"
 
-### Localmente
+### 🖥️ Localmente
 1. Primeiramente, certifique-se de ter o [Python](https://www.python.org/downloads/) instalado em sua máquina.
 2. Instale as bibliotecas [Numpy](https://numpy.org/install/) e [Pandas](https://pandas.pydata.org/docs/getting_started/install.html).
 3. Use `git clone <link-deste-projeto>` em seu terminal clonar o projeto.
