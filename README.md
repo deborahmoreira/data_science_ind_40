@@ -12,14 +12,20 @@ As informações necessárias para executar a análise são organizadas naquele 
 
 ## 🗺️ Arquitetura da solução
 Como solução, optou-se por um ambiente de programação dedicado a executar uma esteira de tarefas em ambiente de nuvem, que no fim gera informações essenciais para a tomada de decisão no que concerne a atividade de geração de ordens de produção. Para tal, é proposta a arquitetura ilustrada na figura abaixo.
-<center><img width="800" src="images/arq_tcc1.png"></center>
+
+<div align="center">
+    <img width="600" title="Arquitetura" src="images/arq_tcc1.png"/>
+</div>
 
 ## 🛠️ Manipulação dos dados
 Um arquivo contendo os dados de entrada é lido e várias transformações são realizadas com objetivo de determinar quais produtos podem ou não ter sua OP gerada. Aqueles que não podem por possuir pêndencias relacionadas às variáveis citadas acima, devem ter essas especificadas, para que sejam posteriormente solucionadas. 
 
-A figura abaixo ilustra um **DAG** com o que é realizado:
+A figura abaixo ilustra um **DAG** com os passos realizados:
 
-<center><img width="800" src="images/fluxo-de-dados.png"></center>
+
+<div align="center">
+    <img width="600" title="Arquitetura" src="images/fluxo-de-dados.png"/>
+</div>
 
 ## Como executar
 ### ☁️ Web
