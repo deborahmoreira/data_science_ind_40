@@ -1,6 +1,7 @@
 # Análise de dados para o PPCP: um estudo de caso
 
-A compamhia alvo do estudo de caso se trata de uma indústria têxtil e seus produtos se tratam principalmente de calças, blusas, vestidos e demais artigos de vestuário. Em meio a uma enorme quantidade de dados gerados e consumidos no decorrer do processo fabril e com a agilidade requerida nesse âmbito, se faz necessário o uso de ferramentas que auxiliem o setor de Planejamento, Programação e Controle da Produção a realizar uma de suas atividades-chave.
+## ❓ Problema
+A compamhia alvo do estudo de caso se trata de uma indústria têxtil e seus produtos se tratam principalmente de calças, blusas, vestidos e demais artigos de vestuário. Em meio a enorme quantidade de dados gerados e consumidos no decorrer de um complexo processo fabril, se faz necessária a implementação de uma solução que auxilie o setor de Planejamento, Programação e Controle da Produção (PPCP) a realizar uma de suas atividades-chave.
 
 Dentre as principais atividades do setor de PPCP de uma indústria está a geração de Ordens de Produção (OP). Estas determinam o início do fluxo produtivo de determinado produto. Para que seja gerada uma OP, devem ser observadas as seguintes informações:
 * a quantidade de matéria-prima suficiente para suprir a necessidade;
@@ -9,16 +10,18 @@ Dentre as principais atividades do setor de PPCP de uma indústria está a gera�
 
 As informações necessárias para executar a análise são organizadas naquele que é chamado de *Manufacturing Resources Planning* (MRP) e disponibilizadas em um arquivo em **formato tabular**. 
 
-## Manipulação dos dados
+## 🗺️ Arquitetura da solução
+Como solução, optou-se por um ambiente de programação dedicado a executar uma esteira de tarefas em ambiente de nuvem, que no fim gera informações essenciais para a tomada de decisão no que concerne a atividade de geração de ordens de produção. Para tal, é proposta a arquitetura ilustrada na figura abaixo.
+<center><img width="800" src="images/arq_tcc1.png"></center>
 
+## 🛠️ Manipulação dos dados
 Um arquivo contendo os dados de entrada é lido e várias transformações são realizadas com objetivo de determinar quais produtos podem ou não ter sua OP gerada. Aqueles que não podem por possuir pêndencias relacionadas às variáveis citadas acima, devem ter essas especificadas, para que sejam posteriormente solucionadas. 
 
-A figura abaixo ilustra o passo a passo do que é realizado:
+A figura abaixo ilustra um **DAG** com o que é realizado:
 
 <center><img width="800" src="images/fluxo-de-dados.png"></center>
 
 ## Como executar
-
 ### ☁️ Web
 Para conhecer e navegar pelo projeto é recomendado acessar este [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/deborahmoreira/data_science_ind_40/blob/main/DataScience_PCP.ipynb)
 
