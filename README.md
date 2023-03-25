@@ -31,7 +31,7 @@ Nele, não há necessidade importar manualmente os arquivos de entrada. Cada pas
 2. Instale as bibliotecas [Numpy](https://numpy.org/install/) e [Pandas](https://pandas.pydata.org/docs/getting_started/install.html).
 3. Use `git clone <link-deste-projeto>` em seu terminal clonar o projeto.
 4. Abra o arquivo `datascience_pcp.py` usando sua IDE preferida.
-5. Altere o caminho das pastas que contém as entradas para sua máquina. Faça isso alterando as variáveis `file_0`, `file_1` e `file_2`.
-6. Altere o caminho das pastas que receberam a saída para sua máquina. Faça isso alterando os três últimos comandos do código.
+5. Adapte o caminho das pastas que contém as entradas para sua máquina. Faça isso alterando as variáveis `file_0`, `file_1` e `file_2`.
+6. Adapte o caminho das pastas que receberão a saída para sua máquina. Faça isso alterando os três últimos comandos do código.
 7. No terminal, use `python datascience_pcp.py` e execute.
 8. Para conferir a saída, use o arquivo disponibilizado na pasta `saida esperada`.
