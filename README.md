@@ -45,3 +45,6 @@ Nele, não há necessidade importar manualmente os arquivos de entrada. Cada pas
 6. Adapte o caminho das pastas que receberão a saída para sua máquina. Faça isso alterando os três últimos comandos do código.
 7. No terminal, use `python datascience_pcp.py` e execute.
 8. Para conferir a saída, use o arquivo disponibilizado na pasta `saida esperada`.
+
+## :speaker: Licença
+Este projeto está sob licença MIT. Os dados usados foram previamente autorizados e não contém quaisquer informações confidenciais.
